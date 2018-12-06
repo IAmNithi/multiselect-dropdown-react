@@ -1,4 +1,4 @@
-# React Multi Select Dropdown Component
+## React Multi Select Dropdown Component
 
 React Multi Select Dropdown Component
 
@@ -10,7 +10,6 @@ React Multi Select Dropdown Component
 ## Usage:
 See the examples in ``/src/App.js` for how to use the component
 
-#Usage
 ```
 import React, { Component } from 'react';
 import './App.css';
@@ -58,7 +57,7 @@ export default App;
 
 ```
 
-#Component Usage
+## Component Usage
 ```
 <Multiselect options={data} onSelectOptions={this.result} />
 
