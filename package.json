@@ -7,7 +7,6 @@
     "url": "https://github.com/khan/react-multi-select"
   },
   "license": "MIT",
-  "private": true,
   "dependencies": {
     "react": "^16.6.3",
     "react-dom": "^16.6.3",
