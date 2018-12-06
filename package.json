@@ -1,6 +1,12 @@
 {
   "name": "react-multiselect-dropdown",
   "version": "0.1.0",
+  "description": "React Multiselect Dropdown",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/khan/react-multi-select"
+  },
+  "license": "MIT",
   "private": true,
   "dependencies": {
     "react": "^16.6.3",
