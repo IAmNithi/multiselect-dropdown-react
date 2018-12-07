@@ -5,7 +5,7 @@ React Multi Select Dropdown Component
 ![Component demo](react-multiselect-dropdown.png)
 
 ## Installation:
-`npm install --save @IAmNithi/react-multiselect-dropdown`
+`npm install --save multiselect-dropdown-react`
 
 ## Usage:
 See the examples in ``/src/App.js` for how to use the component

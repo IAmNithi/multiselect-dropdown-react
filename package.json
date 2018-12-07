@@ -1,30 +1,37 @@
 {
-  "name": "multiselect-dropdown-react",
+  "name": "multiselect-react-dropdown",
   "version": "0.1.0",
-  "description": "React Multiselect Dropdown",
+  "description": "react multiselect dropdown component with search",
+  "main": "build/index.js",
+  "peerDependencies": {
+    "react": "^15.5.4"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/IAmNithi/react-multiselect-dropdown"
   },
   "license": "MIT",
   "dependencies": {
-    "react": "^16.6.3",
-    "react-dom": "^16.6.3",
-    "react-scripts": "2.1.1"
+    "react": "^15.5.4",
+    "webpack": "^2.6.1"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack --watch",
+    "build": "webpack"
   },
-  "eslintConfig": {
-    "extends": "react-app"
+  "author": {
+    "name": "Kalanithi Sethuraman",
+    "email": "kalanithi_sas@outlook.com"
   },
-  "browserslist": [
-    ">0.2%",
-    "not dead",
-    "not ie <= 11",
-    "not op_mini all"
-  ]
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-core": "^6.24.1",
+    "babel-loader": "^7.0.0",
+    "babel-plugin-transform-object-rest-spread": "^6.23.0",
+    "babel-plugin-transform-react-jsx": "^6.24.1",
+    "babel-preset-env": "^1.5.1",
+    "css-loader": "^1.0.1",
+    "style-loader": "^0.23.1"
+  }
 }
