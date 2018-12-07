@@ -1,6 +1,6 @@
 {
   "name": "multiselect-dropdown-react",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "react multiselect dropdown component with search",
   "main": "build/index.js",
   "peerDependencies": {
