@@ -70,7 +70,7 @@ export default App;
 
 MIT
 
-## Upcomming Features
+## Upcoming Features
 
 Placeholder text to be made configurable
 Label with id and optional test to be provided for accessibility
