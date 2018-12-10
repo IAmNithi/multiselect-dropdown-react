@@ -24,6 +24,11 @@
     "name": "Kalanithi Sethuraman",
     "email": "kalanithi_sas@outlook.com"
   },
+  "contributors": [{
+    "name": "Anand Kumar",
+    "email": "anand.kumar@live.in",
+    "url": "https://www.npmjs.com/~kumar-anand"
+  }],
   "devDependencies": {
     "webpack": "^2.6.1",
     "babel-cli": "^6.24.1",
