@@ -4,7 +4,8 @@
   "description": "react multiselect dropdown component with search",
   "main": "build/index.js",
   "peerDependencies": {
-    "react": "^15.5.4"
+    "react": "^16.6.3",
+    "react-dom": "^16.6.3"
   },
   "repository": {
     "type": "git",
@@ -12,8 +13,7 @@
   },
   "license": "MIT",
   "dependencies": {
-    "react": "^15.5.4",
-    "webpack": "^2.6.1"
+    "react": "^16.6.3"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -25,6 +25,7 @@
     "email": "kalanithi_sas@outlook.com"
   },
   "devDependencies": {
+    "webpack": "^2.6.1",
     "babel-cli": "^6.24.1",
     "babel-core": "^6.24.1",
     "babel-loader": "^7.0.0",
