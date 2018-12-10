@@ -1,6 +1,6 @@
 {
   "name": "multiselect-dropdown-react",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "react multiselect dropdown component with search",
   "main": "build/index.js",
   "peerDependencies": {
@@ -12,9 +12,6 @@
     "url": "https://github.com/IAmNithi/react-multiselect-dropdown"
   },
   "license": "MIT",
-  "dependencies": {
-    "react": "^16.6.3"
-  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "webpack --watch",
