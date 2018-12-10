@@ -5,10 +5,12 @@ React Multi Select Dropdown Component
 ![Component demo](react-multiselect-dropdown.png)
 
 ## Installation:
+
 `npm install --save multiselect-dropdown-react`
 
 ## Usage:
-See the examples for how to use the component
+
+See the example for how to use the component
 
 ```
 import React, { Component } from 'react';
@@ -58,9 +60,12 @@ export default App;
 ```
 
 ## Component Usage
+
 ```
 <Multiselect options={data} onSelectOptions={this.result} />
 
 ```
+
 ## License
+
 MIT
