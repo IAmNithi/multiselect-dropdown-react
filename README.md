@@ -8,12 +8,12 @@ React Multi Select Dropdown Component
 `npm install --save multiselect-dropdown-react`
 
 ## Usage:
-See the examples in ``/src/App.js` for how to use the component
+See the examples for how to use the component
 
 ```
 import React, { Component } from 'react';
 import './App.css';
-import Multiselect from './components/Multiselect';
+import Multiselect from 'multiselect-dropdown-react';
 
 const data = [{
   name: 'one',
