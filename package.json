@@ -1,6 +1,6 @@
 {
   "name": "multiselect-dropdown-react",
-  "version": "1.0.2",
+  "version": "1.0.5",
   "description": "react multiselect dropdown component with search",
   "main": "build/index.js",
   "peerDependencies": {
@@ -21,13 +21,14 @@
     "name": "Kalanithi Sethuraman",
     "email": "kalanithi_sas@outlook.com"
   },
-  "contributors": [{
-    "name": "Anand Kumar",
-    "email": "anand.kumar@live.in",
-    "url": "https://www.npmjs.com/~kumar-anand"
-  }],
+  "contributors": [
+    {
+      "name": "Anand Kumar",
+      "email": "anand.kumar@live.in",
+      "url": "https://www.npmjs.com/~kumar-anand"
+    }
+  ],
   "devDependencies": {
-    "webpack": "^2.6.1",
     "babel-cli": "^6.24.1",
     "babel-core": "^6.24.1",
     "babel-loader": "^7.0.0",
@@ -35,6 +36,8 @@
     "babel-plugin-transform-react-jsx": "^6.24.1",
     "babel-preset-env": "^1.5.1",
     "css-loader": "^1.0.1",
-    "style-loader": "^0.23.1"
+    "prop-types": "^15.6.2",
+    "style-loader": "^0.23.1",
+    "webpack": "^2.6.1"
   }
 }
