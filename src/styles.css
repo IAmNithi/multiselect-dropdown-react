@@ -1,11 +1,22 @@
-input[type=text],
-select {
-	width: 100%;
-	padding: 12px 20px;
+.input-box {
+	flex-grow: 1;
+	padding: .375rem .75rem;
+	font-size: 1rem;
+	line-height: 1.5;
+	color: #495057;
+	background-color: #fff;
+	background-clip: padding-box;
+	border: 1px solid #ced4da;
+	border-radius: .25rem;
+	transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
 	margin: 8px 0 0 0;
-	display: inline-block;
-	border: 1px solid #ccc;
-	box-sizing: border-box;
+}
+.input-box:focus {
+	color: #495057;
+	background-color: #fff;
+	border-color: #80bdff;
+	outline: 0;
+	box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, .25);
 }
 .input-box:focus + .search-result {
 	display: block;
@@ -59,11 +70,14 @@ select {
 	height: 20px;
 	width: 20px;
 	background-color: #eee;
+	border-radius: .25rem;
+	transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
 }
 
 /* On mouse-over, add a grey background color */
 .container:hover input ~ .checkmark {
 	background-color: #ccc;
+	box-shadow: 0 0 0 0.1rem rgba(0, 123, 255, .25);
 }
 
 /* When the checkbox is checked, add a blue background */
@@ -95,34 +109,42 @@ select {
 	-ms-transform: rotate(45deg);
 	transform: rotate(45deg);
 }
-
+.multiSelect {
+	text-align: left;
+	margin: 12px;
+	display: flex;
+    flex-direction: column;
+}
 /* chip css */
+.chip {
+	flex-grow: 1;
+}
 .chip-body {
 	height: 20px;
-  min-width: 55px;
-  width: auto;
+	min-width: 55px;
+	width: auto;
 	background-color: #2196f3;
 	color: #ffffff;
-	padding: 9px;
+	padding: 5px;
 	text-align: center;
-	border-radius: 5px;
-  display: inline-block;
-  margin-left: 3px;
-  margin-bottom: 3px;
+	border-radius: .25rem;
+	display: inline-block;
+	margin-left: 3px;
+	margin-bottom: 3px;
 }
 .chip-text {
 	margin: 0;
 	display: inline;
 }
 .chip-close {
-  background: none;
+	background: none;
 	color: inherit;
 	border: none;
 	padding: 0;
 	font: inherit;
 	cursor: pointer;
 	outline: inherit;
-  float: right;
-  cursor: pointer;
-  margin-left: 3px;
+	float: right;
+	cursor: pointer;
+	margin-left: 3px;
 }

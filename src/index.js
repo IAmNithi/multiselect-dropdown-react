@@ -1,4 +1,4 @@
-import React, { Component, Fragment } from 'react'
+import React, { Component } from 'react'
 import PropTypes from 'prop-types';
 import './styles.css';
 
@@ -64,7 +64,7 @@ export class Multiselect extends Component {
     }
     render() {
         return (
-            <Fragment>
+            <div className="multiSelect">
                 <div className="chip">
                     {this.returnChip()}
                 </div>
@@ -74,7 +74,7 @@ export class Multiselect extends Component {
                         {this.returnList()}
                     </div>
                 </div>
-            </Fragment>
+            </div>
         )
     }
 }
